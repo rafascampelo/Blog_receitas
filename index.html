@@ -1,11 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Blog de receitas</title>
 </head>
 <body>
+    <style>
+        body {
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          margin: 0;
+          background-color: #f9f9f9;
+        }
+      
+        nav {
+          background-color: #4a90e2; /* azul bonito */
+          padding: 10px 20px;
+          box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+      
+        nav ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          display: flex; /* deixa horizontal */
+          gap: 20px; /* espaço entre os links */
+        }
+      
+        nav ul li a {
+          color: white;
+          text-decoration: none;
+          font-weight: 600;
+          padding: 8px 12px;
+          border-radius: 4px;
+          transition: background-color 0.3s ease;
+        }
+      
+        nav ul li a:hover {
+          background-color: rgba(255, 255, 255, 0.2);
+        }
+      </style>
+
+
+<header>
+   
+            <h1>Receitas Deliciosas</h1>
+            <nav>
+                <ul>
+                    <li><a href="#pudim">Pudim</a></li>
+                    <li><a href="#lasanha">Lasanha</a></li>
+                    <li><a href="#escondidinho">Escondidinho</a></li>
+                </ul>
+            </nav>
+        </header>
     
-</body>
-</html>
+        <main>
+            <article id="pudim">
+                <h2>Pudim de Leite Condensado</h2>
+                <figure>
+                    <img src="https://tse1.mm.bing.net/th/id/OIP.UQeXlQ4NtSnejI7F45PueAHaEj?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Pudim de leite condensado" width="200px" height="" />
+                    <figcaption>Pudim cremoso e delicioso</figcaption>
+                </figure>
+                <p>O pudim é uma sobremesa <mark>clássica</mark> que agrada a todos.</p>
+                <p>Tempo de preparo: <time datetime="PT1H30M">1 hora e 30 minutos</time></p>
+                <details>
+                    <summary>Dica para o pudim perfeito</summary>
+                    Use leite condensado de boa qualidade e não abra o forno antes de 40 minutos para não murchar.
+                </details>
+                <footer>
+                    <small>Publicado em <time datetime="2025-08-21">21 de agosto de 2025</time></small>
+                </footer>
+            </article>
+    
+            <article id="lasanha">
+                <h2>Lasanha à Bolonhesa</h2>
+                <figure>
+                    <img src="https://via.placeholder.com/300x200?text=Lasanha" alt="Lasanha à bolonhesa" />
+                    <figcaption>Uma lasanha suculenta com molho bolonhesa</figcaption>
+                </figure>
+                <p>Ideal para um almoço em família, a lasanha é <mark>reconfortante</mark> e saborosa.</p>
+                <p>Tempo de preparo: <time datetime="PT2H">2 horas</time></p>
+                <details>
+                    <summary>Dica para uma lasanha mais cremosa</summary>
+                    Adicione uma camada extra de queijo mussarela e use molho branco caseiro.
+                </details>
+                <footer>
+                    <small>Publicado em <time datetime="2025-08-20">20 de agosto de 2025</time></small>
+                </footer>
+            </article>
+    
+            <article id="escondidinho">
+                <h2>Escondidinho de Carne Seca</h2>
+                <figure>
+                    <img src="https://via.placeholder.com/300x200?text=Escondidinho" alt="Escondidinho de carne seca" />
+                    <figcaption>Escondidinho cremoso com carne seca desfiada</figcaption>
+                </figure>
+                <p>Esse prato é <mark>perfeito</mark> para um jantar prático e saboroso.</p>
+                <p>Tempo de preparo: <time datetime="PT1H15M">1 hora e 15 minutos</time></p>
+                <details>
+                    <summary>Dica para o escondidinho ideal</summary>
+                    Cozinhe a carne seca muito bem para que fique macia e use purê de mandioca bem cremoso.
+                </details>
+                <footer>
+                    <small>Publicado em <time datetime="2025-08-19">19 de agosto de 2025</time></small>
+                </footer>
+            </article>
+        </main>
+    
+        <aside>
+            <h3>Sobre o Autor</h3>
+            <p>Chef apaixonado por receitas tradicionais brasileiras.</p>
+        </aside>
+    
+        <footer>
+            <p>© 2025 Receitas Deliciosas. Todos os direitos reservados.</p>
+        </footer>
+    </body>
+    </html>
+    

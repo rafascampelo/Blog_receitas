@@ -1,0 +1,40 @@
+As tags novas utilizadas foram:
+
+- figcaption :
+Para que serve:
+É usada dentro de <figure> para fornecer uma legenda ou descrição para o conteúdo.
+
+Por que foi usada:
+Foi usada para descrever o conteúdo da imagem ou gráfico incluído dentro da <figure>.
+Torna o conteúdo mais acessível, permitindo que os usuários (e os mecanismos de busca) entendam o que está sendo mostrado.
+
+- figure:
+Para que serve:
+Usada para agrupar elementos de mídia (como imagens, gráficos, vídeos, etc.) com seus respectivos títulos ou descrições.
+
+Por que foi usada:
+Foi usada para envolver uma imagem ou outro conteúdo visual junto com uma descrição usando a tag <figcaption>.
+
+
+- mark:
+Para que serve:
+Destaca partes do texto que são relevantes ou importantes, como se fosse um marcador de texto amarelo.
+
+Por que foi usada:
+Porque melhora a experiência do usuário ao evidenciar informações relevantes (por exemplo, um resultado de busca ou palavra-chave).
+
+- small: 
+Para que serve:
+Apresenta um texto em tamanho menor do que o texto normal. Geralmente é usado para notas de rodapé, avisos legais, etc.
+
+Por que foi usada:
+Foi usada para inserir informações auxiliares, como direitos autorais, data de publicação, ou notas pequenas no rodapé.
+
+
+
+- aside : 
+Para que serve:
+Usada para conteúdos secundários ou complementares ao conteúdo principal da página (como barras laterais, caixas de informação, links relacionados, etc.)
+
+Por que foi usada:
+Foi usada para apresentar um conteúdo complementar, como um bloco de curiosidade, sugestões de leitura, ou uma barra lateral com links relacionados.
