@@ -1,0 +1,156 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+
+/* Container centralizado */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5em;
+  margin: 0;
+}
+
+nav {
+  background-color: #4a90e2; /* azul bonito */
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* deixa horizontal */
+  gap: 20px; /* espaço entre os links */
+  justify-content: flex-end; /* Alinha os itens à direita */
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+main {
+  padding: 20px 0;
+}
+
+article {
+  background-color: #fff;
+  padding: 30px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  color: #d9534f; /* Vermelho mais vivo */
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 10px;
+  margin-top: 0;
+}
+
+figure {
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+figure img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+figcaption {
+  color: #777;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+p {
+  line-height: 1.6;
+  color: #555;
+}
+
+mark {
+  background-color: #ffe4e1;
+  color: #d9534f;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+details {
+  background-color: #f0f8ff;
+  border-left: 5px solid #4a90e2;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+summary {
+  font-weight: bold;
+  color: #4a90e2;
+  cursor: pointer;
+}
+
+footer {
+  text-align: right;
+  color: #888;
+  margin-top: 15px;
+  font-size: 0.9em;
+}
+
+aside {
+  background-color: #e6f7ff;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+aside h3 {
+  color: #4a90e2;
+  margin-top: 0;
+}
+
+aside p {
+  font-style: italic;
+  color: #666;
+}
+
+.site-footer {
+  background-color: #333;
+  color: #f9f9f9;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.site-footer p {
+  margin: 0;
+}
